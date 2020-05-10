@@ -1,7 +1,7 @@
 import React from 'react';
-import Nav from './Nav';
-import About from './About';
-import Shop from './Shop';
+import Nav from './Components/Nav';
+import About from './Components/About';
+import Teams from './Components/Teams';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 
@@ -13,7 +13,7 @@ function App() {
         <Nav/> 
         <Switch>
           <Route path='/about' component={About}/>
-          <Route path='/shop' component={Shop}/>
+          <Route path='/teams' component={Teams}/>
         </Switch>
       </div>
     </Router>

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import './App.css'
+import '../App.css'
 
 function Nav() {
 
@@ -15,8 +15,8 @@ const navStyle = {
                 <Link style={navStyle} to='/about'>
                     <li>About</li>
                 </Link>
-                <Link style={navStyle} to='/shop'>
-                    <li>Shop</li>
+                <Link style={navStyle} to='/teams'>
+                    <li>Teams</li>
                 </Link>
             </ul>
         </nav>
