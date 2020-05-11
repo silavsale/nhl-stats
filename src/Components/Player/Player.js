@@ -106,7 +106,7 @@ function Player({ match }) {
                     </Typography>
                     <hr />
                     <Typography tag="div">
-                      Game Played this season : {statistics.games}
+                      Game Played this season : {statistics.games}.
                     </Typography>
                     <Typography tag="div">
                       Goals scored : {statistics.goals}
